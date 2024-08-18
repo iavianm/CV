@@ -1,0 +1,58 @@
+.body {
+  max-width: 900px;
+  margin: 40px 40px;
+  background-color: #e5e5e5;
+  font-family: "Roboto", sans-serif;
+}
+
+.name_title {
+  font-size: 1.5rem;
+  padding: 0 0 10px 0;
+  border-bottom: 3px solid gray;
+  margin-bottom: 0;
+}
+
+.contacts {
+  margin: 3px 0 0 0;
+  display: flex;
+  gap: 15px;
+  list-style-type: none;
+  padding: 0;
+}
+
+.contacts li {
+  border-right: black 1px solid;
+  padding-right: 15px;
+}
+
+.contacts li:last-child {
+  border-right: none;
+}
+
+.title {
+  margin-top: 40px;
+  font-size: 1rem;
+  padding: 0 0 10px 0;
+  border-bottom: 2px solid gray;
+}
+
+.about {
+  font-size: 0.86rem;
+}
+
+.header {
+  margin: 0;
+  font-size: 0.86rem;
+}
+
+.list li {
+  font-size: 0.86rem;
+}
+
+.skills_list {
+  font-size: 0.86rem;
+}
+
+.languages p {
+  font-size: 0.86rem;
+}
